@@ -49,7 +49,7 @@ require_once("../../config/conexion.php");
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">ACTUALIZAR FABRICANTES</h5>
+                        <h5 class="card-title text-center">ACTUALIZAR fABRICANTE</h5>
                         <form action="<?php echo base_url; ?>CRUDM/editarDatos.php" method="post">
                         <?php
                             include_once("../../config/conexion.php");
@@ -66,27 +66,27 @@ require_once("../../config/conexion.php");
                             </div>
                             <div class="mb-3">
                                 <label for="direccion" class="form-label">Direccion</label>
-                                <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Nombre del producto" value="<?php echo $row['direccion'] ?>">
+                                <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion" value="<?php echo $row['direccion'] ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="telefono" class="form-label">Telefono</label>
-                                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Nombre del producto" value="<?php echo $row['telefono'] ?>">
+                                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono" value="<?php echo $row['telefono'] ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Nombre del producto" value="<?php echo $row['email'] ?>">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" value="<?php echo $row['email'] ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="fech_registro" class="form-label">Fecha de Registro</label>
-                                <input type="text" class="form-control" id="fech_registro" name="fech_registro" placeholder="Nombre del producto" value="<?php echo $row['fech_registro'] ?>">
+                                <input type="text" class="form-control" id="fech_registro" name="fech_registro" placeholder="Fecha de Registro" value="<?php echo $row['fech_registro'] ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="estado" class="form-label">Estado</label>
-                                <input type="text" class="form-control" id="estado" name="estado" placeholder="Nombre del producto" value="<?php echo $row['estado'] ?>">
+                                <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado de origen" value="<?php echo $row['estado'] ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="Comentarios" class="form-label">Comentarios</label>
-                                <input type="text" class="form-control" id="Comentarios" name="Comentarios" placeholder="Nombre del producto" value="<?php echo $row['Comentarios'] ?>">
+                                <input type="text" class="form-control" id="Comentarios" name="Comentarios" placeholder="Comentarios" value="<?php echo $row['Comentarios'] ?>">
                             </div>
                             
                             <div class="text-center">
