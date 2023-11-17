@@ -48,7 +48,7 @@ require_once("../../config/conexion.php");
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">REGISTRAR FABRICANTES</h5>
+                        <h5 class="card-title text-center">REGISTRAR fABRICANTES</h5>
                         <form action="<?php echo base_url; ?>CRUDM/insertarDatos.php" method="POST">
                         <div class="mb-3">
                                 <label for="nom_fabricante" class="form-label">Nombre</label>
@@ -72,7 +72,7 @@ require_once("../../config/conexion.php");
                             </div>
                             <div class="mb-3">
                                 <label for="estado" class="form-label">Estado</label>
-                                <input type="text" class="form-control" id="estado" name="estado" placeholder="Activo, Frecuente, Inactivo" required>
+                                <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado en que se encuentra en Mexico" required>
                             </div>
                             <div class="mb-3">
                                 <label for="Comentarios" class="form-label">Comentarios</label>
