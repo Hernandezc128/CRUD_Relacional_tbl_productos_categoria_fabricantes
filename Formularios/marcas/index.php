@@ -49,7 +49,7 @@ include_once("../../config/conexion.php")
             <i class="fa-solid fa-cart-plus fa-beat"></i>
             NUEVO
         </a>
-        <h1 class="text-center bg-danger text-light ">LISTADO DE MARCAS</h1>
+        <h1 class="text-center bg-danger text-light ">LISTADO DE FABRICANTES</h1>
         <div class="table-responsive-sm">
             <table class="table table-hover">
                 <thead class="table-dark">
