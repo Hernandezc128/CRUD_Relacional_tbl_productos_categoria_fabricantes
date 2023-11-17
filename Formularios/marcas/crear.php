@@ -48,7 +48,7 @@ require_once("../../config/conexion.php");
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">REGISTRAR MARCA</h5>
+                        <h5 class="card-title text-center">REGISTRAR FABRICANTES</h5>
                         <form action="<?php echo base_url; ?>CRUDM/insertarDatos.php" method="POST">
                         <div class="mb-3">
                                 <label for="nom_fabricante" class="form-label">Nombre</label>
