@@ -11,9 +11,10 @@ Crear Producto
 ![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/5030acfc-675b-42db-acb7-61a91f045c50)
 ![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/1c67debe-afbf-4a9f-ae6c-d0fdcd840c26)
 ![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/169b5df7-66cc-46b6-8c51-ca74604b26cb)
-![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/58b1a46c-4a39-4548-8646-d6247ffff4e0)
-![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/4f83887a-e5e6-4cb7-aca4-edd7c88a6aa7)
-![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/f605d37f-b32c-4cf8-9fd7-ea7465cc5c25)
+![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/bbd066fe-a5fc-45f5-872d-a04d90535db8)
+![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/3a03c1fd-cbce-417f-a431-6ccf0e120d2f)
+![image](https://github.com/Hernandezc128/CRUD_Relacional_tbl_productos_categoria_fabricantes/assets/143743758/b7e855cd-496f-4d85-8b59-4bd4c9485dd3)
+
 
 
 
