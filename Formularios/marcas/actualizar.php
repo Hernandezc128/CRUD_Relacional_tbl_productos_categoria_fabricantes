@@ -49,7 +49,7 @@ require_once("../../config/conexion.php");
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">ACTUALIZAR MARCA</h5>
+                        <h5 class="card-title text-center">ACTUALIZAR FABRICANTES</h5>
                         <form action="<?php echo base_url; ?>CRUDM/editarDatos.php" method="post">
                         <?php
                             include_once("../../config/conexion.php");
