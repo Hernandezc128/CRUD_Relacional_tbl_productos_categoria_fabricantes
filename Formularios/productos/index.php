@@ -58,7 +58,7 @@ include_once("../../config/conexion.php")
                         <th scope="col">Descripcion</th>
                         <th scope="col">Precio</th>
                         <th scope="col">Stock</th>
-                        <th scope="col">Fecah de vencimiento</th>
+                        <th scope="col">Fecha de vencimiento</th>
                         <th scope="col">ID Categoria</th>
                         <th scope="col">ID Fabricantes</th>
                         <th scope="col">OPCIONES</th>
