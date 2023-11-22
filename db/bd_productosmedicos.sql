@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-11-2023 a las 05:39:19
--- Versión del servidor: 10.4.28-MariaDB
--- Versión de PHP: 8.2.4
+-- Tiempo de generación: 22-11-2023 a las 18:25:11
+-- Versión del servidor: 10.1.28-MariaDB
+-- Versión de PHP: 5.6.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -36,7 +37,7 @@ CREATE TABLE `categoria` (
   `prom_costos` varchar(100) NOT NULL,
   `img_producto` varchar(100) NOT NULL,
   `nom_fabricante` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `categoria`
@@ -62,16 +63,16 @@ CREATE TABLE `fabricante` (
   `fech_registro` varchar(100) NOT NULL,
   `estado` varchar(100) NOT NULL,
   `Comentarios` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `fabricante`
 --
 
 INSERT INTO `fabricante` (`id_fabricante`, `nom_fabricante`, `direccion`, `telefono`, `email`, `fech_registro`, `estado`, `Comentarios`) VALUES
-(1, 'OdontoTech', 'Callo Oro con Capulin #255', '656-184-58-51', 'odontotech@hotmail.com', '15/11/23', 'Frecuente', 'Excelentes productos!!'),
-(2, 'Ginecologic', 'Calle Durango #344', '656-587-48-52', 'ginecologic@hotmail.com', '2023-11-16', 'Activo', 'Buena calidad y buen precio.'),
-(3, 'PediatricMex', 'Calle Ponciano', '656-851-48-52', 'piatricmex@hotmail.com', '2023-11-16', 'Frecuente', 'Buenos Precios Pero calidad masomenos');
+(1, 'OdontoTech', 'Callo Oro con Capulin #255', '656-184-58-51', 'odontotech@hotmail.com', '15/11/23', 'Guadalajara', 'Excelentes productos!!'),
+(2, 'Ginecologic', 'Calle Durango #344', '656-587-48-52', 'ginecologic@hotmail.com', '2023-11-16', 'CDMX', 'Buena calidad y buen precio.'),
+(3, 'PediatricMex', 'Calle Ponciano', '656-851-48-52', 'piatricmex@hotmail.com', '2023-11-16', 'Sinaloa', 'Buenos Precios Pero calidad masomenos');
 
 -- --------------------------------------------------------
 
@@ -88,7 +89,7 @@ CREATE TABLE `productos` (
   `fech_vencimiento` varchar(50) NOT NULL,
   `id_categoria` varchar(50) NOT NULL,
   `id_fabricante` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `productos`
