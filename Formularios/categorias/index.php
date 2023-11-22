@@ -56,7 +56,7 @@ include_once("../../config/conexion.php")
                         <th scope="col">ID</th>
                         <th scope="col">Nombre</th>
                         <th scope="col">Descripcion</th>
-                        <th scope="col">Fecha de cracion</th>
+                        <th scope="col">Fecha de creacion</th>
                         <th scope="col">Numero de productos</th>
                         <th scope="col">Promedio de costos</th>
                         <th scope="col">img del producto</th>
